@@ -1,0 +1,45 @@
+.chipsets:
+
+input i1
+input i2
+input i3
+input i4
+input i5
+input i6
+input i7
+input i8
+input i9
+input i10
+input i11
+input i12
+input i13
+input i14
+myG_Xor and0
+myG_Xor and1
+myG_Xor and2
+myG_Xor and3
+
+.links:
+i1:1 and0:1
+i2:1 and0:2
+and0:3 i3:1
+
+and1:3 i4:1
+
+i5:1 and1:1
+i6:1 and1:2
+
+
+i8:1 and2:1
+i9:1 and2:2
+
+and2:3 i10:1
+and3:3 i11:1
+
+i12:1 and3:2
+i13:1 and3:1
+
+
+
+
+

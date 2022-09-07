@@ -1,0 +1,50 @@
+.chipsets:
+
+input i1
+input i2
+input i3
+input i4
+input i5
+input i6
+input i7
+input i8
+input i9
+input i10
+input i11
+input i12
+input i13
+input i14
+input i15
+input i16
+
+myG_Add a1
+myG_Add a2
+myG_Add a3
+myG_Add a4
+.links:
+
+i15:1 a4:2
+i1:1 a4:1
+
+i2:1 a3:2
+i3:1 a3:1
+i4:1 a2:2
+i5:1 a2:1
+i6:1 a1:2
+i7:1 a1:1
+
+a4:5 i13:1
+a3:5 i12:1
+a2:5 i11:1
+a1:5 i10:1
+#carry
+a4:4 i14:1
+a3:4 a4:3
+a2:4 a3:3
+a1:4 a2:3
+i9:1 a1:3
+
+
+
+
+

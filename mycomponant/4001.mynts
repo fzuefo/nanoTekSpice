@@ -1,0 +1,54 @@
+.chipsets:
+
+input i1
+input i2
+input i3
+input i4
+input i5
+input i6
+input i7
+input i8
+input i9
+input i10
+input i11
+input i12
+input i13
+input i14
+myG_Or and0
+myG_Or and1
+myG_Or and2
+myG_Or and3
+myG_Not no1
+myG_Not no2
+myG_Not no3
+myG_Not no4
+
+.links:
+i1:1 and0:1
+i2:1 and0:2
+and0:3 no1:1
+no1:2 i3:1
+
+and1:3 no2:1
+no2:2 i4:1
+
+i5:1 and1:1
+i6:1 and1:2
+
+
+i8:1 and2:1
+i9:1 and2:2
+
+and2:3 no3:1
+no3:2 i10:1
+
+and3:3 no4:1
+no4:2 i11:1
+
+i12:1 and3:2
+i13:1 and3:1
+
+
+
+
+

@@ -1,0 +1,11 @@
+myG_And:3
+myG_Or:3
+myG_Xor:3
+myG_Add:5
+myG_Not:2
+myG_FF:6
+input:1
+output:1
+4040:16
+4512:16
+logger:10
